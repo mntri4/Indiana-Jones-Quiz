@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'SF Fedora Symbols';
+    src: url('SFFedoraSymbols.eot');
+    src: local('SF Fedora Symbols'), local('SFFedoraSymbols'),
+        url('SFFedoraSymbols.eot?#iefix') format('embedded-opentype'),
+        url('SFFedoraSymbols.woff2') format('woff2'),
+        url('SFFedoraSymbols.woff') format('woff'),
+        url('SFFedoraSymbols.ttf') format('truetype'),
+        url('SFFedoraSymbols.svg#SFFedoraSymbols') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Fedora Titles';
+    src: url('SFFedoraTitles.eot');
+    src: local('SF Fedora Titles'), local('SFFedoraTitles'),
+        url('SFFedoraTitles.eot?#iefix') format('embedded-opentype'),
+        url('SFFedoraTitles.woff2') format('woff2'),
+        url('SFFedoraTitles.woff') format('woff'),
+        url('SFFedoraTitles.ttf') format('truetype'),
+        url('SFFedoraTitles.svg#SFFedoraTitles') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Fedora Outline';
+    src: url('SFFedoraOutline.eot');
+    src: local('SF Fedora Outline'), local('SFFedoraOutline'),
+        url('SFFedoraOutline.eot?#iefix') format('embedded-opentype'),
+        url('SFFedoraOutline.woff2') format('woff2'),
+        url('SFFedoraOutline.woff') format('woff'),
+        url('SFFedoraOutline.ttf') format('truetype'),
+        url('SFFedoraOutline.svg#SFFedoraOutline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Fedora';
+    src: url('SFFedora.eot');
+    src: local('SF Fedora'), local('SFFedora'),
+        url('SFFedora.eot?#iefix') format('embedded-opentype'),
+        url('SFFedora.woff2') format('woff2'),
+        url('SFFedora.woff') format('woff'),
+        url('SFFedora.ttf') format('truetype'),
+        url('SFFedora.svg#SFFedora') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Indiana Jones Quiz</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header role='banner'>
+    <h1>Indiana Jones Quiz</h1>
+  </header>
+  <main role='main'>
+    <div id='quiz-content'>
+      <section id="intro-page">
+        <h2 id='opener'><i>TEST YOUR KNOWLEDGE...</i></h2>
+        <img src="images/idol.png" alt="Indy and the idol" id='idol' />
+        <form action='' method="POST">
+          <input type="hidden" name="question" value="1">
+          <button id='start-button'>Begin</button>
+        </form>
+      </section>
+      <div id='tracker' class='tracker'>
+        <ul id='tracker-section'>
+          <li>Question # <span id='question-number'></span></li>
+          <li>Score: <span id='user-score'></span></li>
+        </ul>
+      </div>
+      <section id='question-page'>
+        <div role='section'>
+          <h2 id='question-text'>Question content here</h2>
+          <form id='question-form' class='question'>
+            <fieldset>
+              <div class='question-div'>
+                <input type='radio' id='choice-1' name='choice' value='' required />
+                <label id='label-1' for='choice-1'></label>
+              </div>
+              <div class='question-div'>
+                <input type='radio' id='choice-2' name='choice' value='' required />
+                <label id='label-2' for='choice-2'></label>
+              </div>
+              <div class='question-div'>
+                <input type='radio' id='choice-3' name='choice' value='' required />
+                <label id='label-3' for='choice-3'></label>
+              </div>
+              <div class='question-div'>
+                <input type='radio' id='choice-4' name='choice' value='' required />
+                <label id='label-4' for='choice-4'></label>
+              </div>
+            </fieldset>
+            <div>
+              <button id='submit-answer'>Submit</button>
+            </div>
+          </form>
+        </section>
+        <section role='section' id='feedback-section'>
+          <div class='answer-feedback'>
+            <h3 id='answer-result'></h3>
+            <img id='result-image' alt='' />
+            <p id='answer-comment'></p>
+            <button id='next-question'>Next Question</button>
+            <button id='see-results'>See Final Results</button>
+          </div>
+          <audio id='whip'>
+            <source src='audio/93100__cgeffex__whip-crack-01 (mp3cut.net).mp3'>
+          </audio>
+        </section>
+        <section id='end-result-section' role='section'>
+          <div class='end-result'>
+            <h2>Your final score is: <span id='final-score'></span>/10</h2>
+            <p id='final-feedback'></p>
+            <p id='final-comment'></p>
+            <button id='start-over'>Start Over</button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="index.js"></script>
+  </body>
+
+</html>
